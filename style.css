@@ -20,6 +20,7 @@ header, footer{
     justify-content: space-between;
     padding: 0 20px;
 }
+
 header{
     height: 100px;
     display: flex;
@@ -59,7 +60,7 @@ main{
     text-align: end;
 }
 .content-image{
-    height: 85vh;
+    height: 60vh;
 }
 
 footer{
