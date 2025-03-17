@@ -23,21 +23,31 @@ Explique a função das tags HTML e como elas estruturam uma página.
 R: Elas são importantes pois elas que dão o corpo do site.
 
 O que são atributos em uma tag HTML e qual a sua função?
+R: São palavras especiais usadas dentro de uma tag para controlar o comportamento do elemento
 
 O que é o Emmet e como ele facilita o desenvolvimento de páginas HTML?
+R: Emmet é uma ferramenta poderosa que visa aumentar a produtividade dos desenvolvedores web, especialmente aqueles que trabalham com HTML e CSS
 
 O que é o box-sizing no CSS e por que usamos ele no reset inicial?
+R: A propriedade CSS box-sizing é utilizada para alterar a propriedade padrão da box model, usada para calcular larguras (widths) e alturas (heights) dos elementos. 
 
 Por que é importante utilizar tags semânticas no HTML?
+R: Por boas práticas
 
 O que são media queries no CSS e qual a sua função?
+R: Media Queries são um módulo de CSS que definem expressões, permitindo ajustar visualizações a uma variedade específica de dispositivos de saída sem mudar o conteúdo.
 
 Qual a função do GitHub Pages?
+R: É uma maneira de acessar o projeto realizado sem a necessidade de clonar o repositório
 
 O que é o Flexbox no CSS e para que ele é utilizado?
+R: O Flexbox é um conceito do CSS3 que visa organizar os elementos de uma página HTML dentro de seus containers de forma dinâmica. 
 
 Qual a diferença entre justify-content e align-items em um container Flexbox?
+R: justify-content controla o alinhamento de todos os itens no eixo principal. align-items controla o alinhamento de todos os itens no eixo transversal.
 
 Como o flex-grow funciona e qual o seu propósito no layout Flexbox?
+R: Esta propriedade define a proporção com que um item deve crescer caso seja necessário. Por padrão seu valor é 0, o que indica que o item não deve crescer, e são aceitos apenas valores numéricos positivos.
 
 Explique a diferença entre flex-direction: column; e flex-direction: row;.
+R: A referência para a distribuição é definida pelo flex-direction, ou seja, para um flex-direction:row a distribuição será horizontal, para um flex-direction:column a distribuição será na vertical.
