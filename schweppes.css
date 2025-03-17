@@ -8,19 +8,17 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background:linear-gradient(#CF2425,#DA6062 50%,#DA6062 60%,#DA3B3F);
+    background: rgb(128,143,16);
+    background: linear-gradient(90deg, rgba(128,143,16,1) 0%, rgba(228,224,11,1) 50%, rgba(128,143,16,1) 100%);
 }
-
 header, footer{
     height: 100px;
-    background-color: #CF2425;
     color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
 }
-
 header{
     height: 100px;
     display: flex;
@@ -30,15 +28,17 @@ header{
     padding-left: 75px;
     justify-content: flex-start;
 }
+a{
+    color: white;
+}
 header span{
     font-weight: 600;
 }
-
 main{
-    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
 .background-logo{
     position: absolute;
@@ -54,7 +54,7 @@ main{
 .content-text{
     position: absolute;
     color: #FFFFFF;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     width: 240px;
     transform: translateX(-100%);
     text-align: end;
@@ -62,7 +62,6 @@ main{
 .content-image{
     height: 60vh;
 }
-
 footer{
     height: 100px;
     display: flex;
@@ -72,9 +71,6 @@ footer{
     padding-left: 75px;
     color: #FFFFFF;
     font-weight: 100;
-}
-footer div{
-    width: 64px;
 }
 
 @media (max-width: 768px) {
@@ -94,7 +90,4 @@ footer div{
     footer{
         padding: 0px 25px;
     }
-}
-a{
-    color: white;
 }
